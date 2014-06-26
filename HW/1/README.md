@@ -23,18 +23,19 @@ There are **24** marks available and are awarded grades as follows:
 ###1 - Why do we represent data using binary when using computers *(1 mark)*
 
 ```
-answer here
+binary is the most effective way of representing data and is the standard way for computers to read this data.
 ```
 ###2 - How would we represent the number 147 in binary? *(1 mark)*
 ```
-answer here
+010010011
 ```
 ###3 - Can you convert the hexadecimal number **b5** to denary, there is a mark for you working. *(2 marks)*
 ```
-answer here
+Hexidecimal to Binary = 10110100
+Binary to Denary = 11
 ```
 ###4 - Here is a function written is **pseudocode**.
-```
+
 FUNCTION validUser (users , user)
     FOR x <-1 to LEN(users)
         IF users[x] = user
@@ -47,12 +48,12 @@ ENDFUNCTION
 
 (a) What type of data is **users**? **(1 mark)**
 ```
-answer here
+variable
 ```
 
 (b) What type of data is returned by this function? **(1 mark)**
 ```
-answer here
+Number of users
 ```
 
 ##Errors
@@ -64,12 +65,12 @@ line3:		FOR x <- to LEN(nums)
 line4:			tot <- nums[x]
 line5:		ENDFOR
 line6:		mean <- tot
-line7:		OUTPT mean
+line7:		OUTPUT 	mean
 ```
 
 (a) On which line is there a **syntax** error? **(1 mark)**
 ```
-answer here
+
 ```
 
 (b) What is meant by a **syntax** error? **(1 mark)**
