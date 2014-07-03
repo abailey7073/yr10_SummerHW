@@ -23,15 +23,15 @@ There are **24** marks available and are awarded grades as follows:
 ###1 - Why do we represent data using binary when using computers *(1 mark)*
 
 ```
-answer here
+Because the machine can only represent data with open and closed electronic circuits.
 ```
 ###2 - How would we represent the number 147 in binary? *(1 mark)*
 ```
-answer here
+010010011
 ```
 ###3 - Can you convert the hexadecimal number **b5** to denary, there is a mark for you working. *(2 marks)*
 ```
-answer here
+181
 ```
 ###4 - Here is a function written is **pseudocode**.
 ```
@@ -47,12 +47,12 @@ ENDFUNCTION
 
 (a) What type of data is **users**? **(1 mark)**
 ```
-answer here
+string
 ```
 
 (b) What type of data is returned by this function? **(1 mark)**
 ```
-answer here
+float
 ```
 
 ##Errors
@@ -69,28 +69,32 @@ line7:		OUTPT mean
 
 (a) On which line is there a **syntax** error? **(1 mark)**
 ```
-answer here
+line 7
 ```
 
 (b) What is meant by a **syntax** error? **(1 mark)**
 ```
-answer here
+an error which is caused by misspelling or misunderstanding of code
 ```
 
 (c) Identify a logical error in the program and suggest how this might be fixed. **(2 marks)**
 ```
-answer here
+the code does not display the finished calculation
 ```
 
 (d) Describe and give an example of the 3rd kind of programming error. **(2 marks)**
 ```
-answer here
+runtime errors are errors caused by user interaction. for example:
+
+imput(int("Type 1 for cookie or type 2 for cake")
+if the user types "3" or any other word other than what is described,
+the program will crash, because the porgram does not know how to handle the mishap.
 ```
 
 ##Algortithms
 ###7 - Write an **algorithm** that if given a list of numbers could find the largest. Try to use [pseudocode](http://filestore2.aqa.org.uk/subjects/AQA-GCSE-COMPSCI-W-TRB-PSEU.PDF).
 ```
-answer here
+
 ```
 
 ##Networking
@@ -98,27 +102,26 @@ answer here
 
 **Bus Topology (6 marks)**
 ```
-Describe:
+Describe: A series of nodes and servers are connected to a single cable - A signal from the source is broadcasted and it travels to all workstations connected to bus cable.
 
-Advantages:
+Advantages: Easy to set up
 
-Disadvantages:
+Disadvantages: Limits on cable length and connectivity
 ```
 
 **Ring Topology (6 marks)**
 ```
-Describe:
+Describe: In Ring Topology, all nodes are connected to one another in a way so that they make a closed loop. Each node or server is connected to the two on either side, and it communicates with these two neighbors.
 
-Advantages:
+Advantages: Very organised and easing stress on network load
 
-Disadvantages:
+Disadvantages: network packets go through each node on the network, making it slower than star topology.
 ```
 
 **Star Topology (6 marks)**
 ```
-Describe:
+Describe:   In Star topology, all the servers of network are connected to the central device known as the “hub”.
 
-Advantages:
+Advantages: Provides faster performance than bus topology
 
-Disadvantages:
-```
+Disadvantages: If the hub is shut down, the entire network fails.
